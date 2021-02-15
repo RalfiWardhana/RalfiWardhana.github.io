@@ -1,0 +1,824 @@
+html{
+   scroll-behavior: smooth;
+}
+.nav-item{
+	margin-right: 25px;
+}
+.jumbotron{
+	padding: 0px 0px;
+	margin-top: 0px;
+}
+.foto-backgroud{
+	margin-top: 0px;
+}
+
+.judul{
+	 font-size: 12px;
+     font-family: 'Inconsolata';
+     letter-spacing: 4px;
+     height: 30px;
+     margin-top: 20px;
+     text-align: left;
+     line-height: 20px;
+}
+.garis{
+	width: 20px;
+	border-bottom: 1px solid green;
+}
+.garis2{
+	width: 15px;
+	border-bottom: 1px solid green;
+	margin-top: 5px;
+	margin-bottom: 15px;
+}
+.isi-judul{
+	  font-size: 14px;
+      line-height: 22px;
+      letter-spacing: 3px;
+      font-family: 'Lato', sans-serif;
+      color: #232323;
+      font-weight: 700;
+      text-align: left;
+      margin-bottom: 20px;
+}
+.isi{
+	  font-family: 'Inconsolata';
+      font-weight: 200;
+      font-size: 10px;
+      line-height: 17px;
+      letter-spacing: 0px;
+      color: #828282;
+      text-align: justify;
+      margin-bottom: 10px;
+}
+.foto-about{
+	width: 100%;
+	height: 165px;
+	margin-top: 30px;
+}
+.pelayanan {
+    font-size: 20px;
+    vertical-align: baseline;
+    font-family: 'Lato', sans-serif;
+    font-weight: 400;
+    margin-top: 40px;
+}
+.pelayanan-isi{
+	 font-size: 9px;
+     line-height: 15px;
+     letter-spacing: 1px;
+     color: #828282;
+     font-family: sans-serif;
+     margin-bottom: 20px;
+}
+.foto-layanan{
+	width: 240px;
+	height: 120px;
+	text-align: center;
+}
+.judul-pelayanan{
+    font-size: 15px;
+    vertical-align: baseline;
+    font-family: oswald;
+    font-weight: 400;
+    margin-top: 20px;
+    margin-bottom: 20px;
+    text-align: center;
+    text-decoration: underline;
+}
+ .iq {
+    font-size: 10px;
+    line-height: 10px;
+    color: #828282;
+    font-family: sans-serif;
+    /*text-align: center;*/
+ }
+ .putih-abu{
+ 	background-color: whitesmoke;
+ }
+.work{
+ 	text-align: center;
+ }
+.foto-testimoni{
+ 	background-image: url("batuu.jpg");
+ 	background-repeat: no-repeat;
+ 	background-size: cover;
+ 	background-attachment: fixed;
+ 	width: 100%;
+ 	box-shadow: 0px 5px 40px 5px black, 0 -5px 40px 5px black;
+ }
+ .lead,.display-4{
+ 	color: white;
+ }
+ .lead{
+ 	margin-top: 20px;
+ }
+ .display-4{
+ 	margin-top: -10px;
+ 	font-size: 30px;
+ 	font-weight: bold;
+    margin-bottom: 20px;
+ }
+
+.kiri{
+	text-align: left;
+	line-height: 10px;
+}
+.turun-layanan{
+	margin-top: 20px;
+}
+.persen{
+   font-size: 15px;
+   font-weight: bold;
+   line-height: 10px;
+   letter-spacing: 2px;
+   color: #828282;
+   font-family: 'Inconsolata';	
+   margin-left: 30px;
+}
+.klir{
+	clear: left;
+}
+
+
+
+/*mobile version*/
+@media (max-width: 600px) {
+.tetap{
+	background-color: whitesmoke;
+}
+.foto-background{
+  margin-top: 50px;
+}
+ .kotaq1{
+ 	padding-top: 15px;
+ 	box-shadow: -5px -5px 10px black;
+ 	border-radius: 30px;
+ 	transition: 1s;
+ }
+ .kotaq2{
+ 	padding-top: 15px;
+    box-shadow: -5px -5px 10px black;
+ 	border-radius: 30px;
+    transition: 1s;
+ }
+ .kotaq3{
+ 	padding-top: 15px;
+    box-shadow: -5px -5px 10px black;
+ 	border-radius: 30px;
+    transition: 1s;
+ }
+ .kotaq4{
+ 	padding-top: 15px;
+    padding-bottom: 15px;
+    box-shadow: -5px -5px 10px black;
+ 	border-radius: 30px;
+    transition: 1s;
+ }
+ .lead,.display-4{
+ 	color: white;
+ 	font-family: sans-serif;
+ }
+ .lead{
+ 	margin-top: 20px;
+ 	font-size: 15px;
+ 	font-family: 'Inconsolata';
+ 	
+ }
+ .display-4{
+ 	margin-top: -10px;
+ 	font-size: 25px;
+    margin-bottom: 20px;
+    font-family: 'Inconsolata';
+ }
+ .putih{
+ 	color: white;
+ }
+ .kotaq1:hover{
+ 	padding-top: 15px;
+ 	box-shadow: 0px 0px 0px black, 0px 0px 0px black;
+ 	border-top-left-radius: 30px;
+ 	border-top-right-radius: 30px;
+ 	transition: 1s;
+ }
+  .kotaq2:hover{
+ 	padding-top: 15px;
+ 	box-shadow: 0px 0px 0px black, 0px 0px 0px black;
+ 	transition: 1s;
+ }
+  .kotaq3:hover{
+ 	padding-top: 15px;
+ 	box-shadow: 0px 0px 0px black, 0px 0px 0px black;
+ 	transition: 1s;
+ }
+  .kotaq4:hover{
+ 	padding-top: 15px;
+ 	box-shadow: 0px 0px 0px black, 0px 0px 0px black;
+ 	border-bottom-left-radius: 30px;
+ 	border-bottom-right-radius: 30px;
+ 	transition: 1s;
+ }
+ .kiri{
+	text-align: left;
+	line-height: 2px;
+	margin-top: 20px;
+	font-size: 9px;
+}
+.turun-layanan{
+	margin-top: 0px;
+}
+.persen{
+   font-size: 10px;
+   font-weight: bold;
+   line-height: 10px;
+   letter-spacing: 2px;
+   color: #828282;
+   font-family: 'Inconsolata';	
+   margin-left: 9px;
+}
+.turun{
+   margin-bottom: 35px;
+} 
+
+}
+
+
+
+
+/*FOTO PELAYANAN TABLET VERSION*/
+@media (min-width: 992px) and (max-width: 1030px) { 
+.foto-layanan{
+  width: 170px;
+  height: 120px;
+  border-radius: 10px;
+} 
+}
+
+
+
+
+/*Tablet version dan mobile landscape*/
+@media (min-width: 630px) and (max-width: 830px) {
+.tetap{
+  background-color: whitesmoke;
+}
+.foto-background{
+  margin-top: 50px;
+}
+ .kotaq1{
+  padding-top: 15px;
+  box-shadow: -5px -5px 10px black;
+  border-radius: 30px;
+  transition: 1s;
+ }
+ .kotaq2{
+  padding-top: 15px;
+    box-shadow: -5px -5px 10px black;
+  border-radius: 30px;
+    transition: 1s;
+ }
+ .kotaq3{
+  padding-top: 15px;
+    box-shadow: -5px -5px 10px black;
+  border-radius: 30px;
+    transition: 1s;
+ }
+ .kotaq4{
+  padding-top: 15px;
+    padding-bottom: 15px;
+    box-shadow: -5px -5px 10px black;
+  border-radius: 30px;
+    transition: 1s;
+ }
+ .lead,.display-4{
+  color: white;
+  font-family: sans-serif;
+ }
+ .lead{
+  margin-top: 20px;
+  font-size: 15px;
+  font-family: 'Inconsolata';
+  
+ }
+ .display-4{
+  margin-top: -10px;
+  font-size: 25px;
+    margin-bottom: 20px;
+    font-family: 'Inconsolata';
+ }
+ .putih{
+  color: white;
+ }
+ .kotaq1:hover{
+  padding-top: 15px;
+  box-shadow: 0px 0px 0px black, 0px 0px 0px black;
+  border-top-left-radius: 30px;
+  border-top-right-radius: 30px;
+  transition: 1s;
+ }
+  .kotaq2:hover{
+  padding-top: 15px;
+  box-shadow: 0px 0px 0px black, 0px 0px 0px black;
+  transition: 1s;
+ }
+  .kotaq3:hover{
+  padding-top: 15px;
+  box-shadow: 0px 0px 0px black, 0px 0px 0px black;
+  transition: 1s;
+ }
+  .kotaq4:hover{
+  padding-top: 15px;
+  box-shadow: 0px 0px 0px black, 0px 0px 0px black;
+  border-bottom-left-radius: 30px;
+  border-bottom-right-radius: 30px;
+  transition: 1s;
+ }
+ .kiri{
+  text-align: left;
+  line-height: 2px;
+  margin-top: 20px;
+  font-size: 9px;
+}
+.turun-layanan{
+  margin-top: 0px;
+}
+.persen{
+   font-size: 10px;
+   font-weight: bold;
+   line-height: 10px;
+   letter-spacing: 2px;
+   color: #828282;
+   font-family: 'Inconsolata';  
+   margin-left: 9px;
+}
+.turun{
+   margin-bottom: 35px;
+}
+.judul{
+   font-size: 17px;
+     font-family: 'Inconsolata';
+     letter-spacing: 4px;
+     height: 30px;
+     margin-top: 40px; 
+}
+.garis{
+  width: 40px;
+  border-bottom: 1px solid green;
+}
+.garis2{
+  width: 30px;
+  border-bottom: 1px solid green;
+  margin-top: 10px;
+  margin-bottom: 30px;
+}
+.judul{
+   font-size: 15px;
+     font-family: 'Inconsolata';
+     letter-spacing: 4px;
+     height: 30px;
+     margin-top: 40px;
+     text-align: left;
+}
+.isi-judul{
+    font-size: 24px;
+      line-height: 32px;
+      letter-spacing: 3px;
+      font-family: 'Lato', sans-serif;
+      color: #232323;
+      font-weight: 700;
+      text-align: left;
+      margin-bottom: 20px;
+}
+.isi{
+    font-family: 'Inconsolata';
+      font-weight: 400;
+      font-size: 15px;
+      line-height: 23px;
+      letter-spacing: 1px;
+      color: #828282;
+      text-align: justify;
+}
+.foto-about{
+  width: 100%;
+  height: 335px;
+  margin-top: 0px;
+}
+.pelayanan {
+    font-size: 20px;
+    vertical-align: baseline;
+    font-family: 'Lato', sans-serif;
+    font-weight: 400;
+    margin-top: 60px;
+    margin-bottom: 30px;
+}
+.pelayanan-isi{
+   font-size: 15px;
+     line-height: 30px;
+     letter-spacing: 2px;
+     color: #828282;
+     font-family: 'Inconsolata';
+     margin-bottom: 50px;
+}
+.foto-layanan{
+  width: 300px;
+  height: 200px;
+  border-radius: 10px;
+}
+.judul-pelayanan{
+    font-size: 20px;
+    vertical-align: baseline;
+    font-family: 'Lato', sans-serif;
+    font-weight: 400;
+    margin-top: 30px;
+    margin-bottom: 30px;
+    text-decoration: underline;
+}
+ .iq {
+    font-size: 15px;
+    line-height: 20px;
+    letter-spacing: 2px;
+    color: #828282;
+    font-family: sans-serif;
+ }
+.turun{
+   margin-bottom: 35px;
+}
+ .work{
+  text-align: center;
+ }
+
+
+} 
+
+
+/*FOTO PELAYANAN DEKSTOP VERSION*/
+@media (min-width: 1031px) and (max-width: 1370px) { 
+.foto-layanan{
+  width: 250px;
+  height: 150px;
+  border-radius: 10px;
+}
+ 
+}
+
+
+
+
+
+/*DEKSTOP VERSION*/
+@media (min-width: 992px) and (max-width: 1370px) { 
+.navbar{
+	height: 70px;
+	opacity: 1;
+	box-shadow: 0px 10px 15px black;
+}
+.navbar-brand{
+	color: white !important;
+}
+.nav-link{
+	color: black !important;
+}
+.jumbotron{
+	width: 100%;
+	margin-top: -80px;
+}
+.foto-background{
+  height: 750px;
+}
+.scrolled{
+	background-color: whitesmoke;
+}
+.hitam-nih{
+  color: black !important;
+}
+.judul{
+	 font-size: 17px;
+     font-family: 'Inconsolata';
+     letter-spacing: 4px;
+     height: 30px;
+     margin-top: 40px; 
+}
+.garis{
+	width: 40px;
+	border-bottom: 1px solid green;
+}
+.garis2{
+	width: 30px;
+	border-bottom: 1px solid green;
+	margin-top: 10px;
+	margin-bottom: 30px;
+}
+.judul{
+	 font-size: 15px;
+     font-family: 'Inconsolata';
+     letter-spacing: 4px;
+     height: 30px;
+     margin-top: 40px;
+     text-align: left;
+}
+.isi-judul{
+	  font-size: 24px;
+      line-height: 32px;
+      letter-spacing: 3px;
+      font-family: 'Lato', sans-serif;
+      color: #232323;
+      font-weight: 700;
+      text-align: left;
+      margin-bottom: 20px;
+}
+.isi{
+	  font-family: 'Inconsolata';
+      font-weight: 400;
+      font-size: 15px;
+      line-height: 23px;
+      letter-spacing: 1px;
+      color: #828282;
+      text-align: justify;
+}
+.foto-about{
+	width: 100%;
+	height: 335px;
+	margin-top: 0px;
+}
+.pelayanan {
+    font-size: 20px;
+    vertical-align: baseline;
+    font-family: 'Lato', sans-serif;
+    font-weight: 400;
+    margin-top: 60px;
+    margin-bottom: 15px;
+}
+.pelayanan-isi{
+	 font-size: 15px;
+     line-height: 30px;
+     letter-spacing: 1px;
+     color: #828282;
+     font-family: sans-serif;
+     margin-bottom: 45px;
+}
+
+.judul-pelayanan{
+    font-size: 20px;
+    vertical-align: baseline;
+    font-family: oswald;
+    font-weight: 400;
+    margin-top: 30px;
+    margin-bottom: 30px;
+    text-decoration: underline;
+}
+ .iq {
+    font-size: 15px;
+    line-height: 20px;
+    letter-spacing: 0px;
+    color: #828282;
+    font-family: sans-serif;
+ }
+ .turun{
+ 	margin-bottom: 10px;
+ }
+ .work{
+ 	text-align: center;
+ }
+ .kotaq1{
+ 	padding-top: 30px;
+ 	box-shadow: -5px -5px 40px black;
+ 	border-radius: 10px;
+ 	transition: 1s;
+ 	cursor: pointer;
+ }
+ .kotaq2{
+    padding-top: 30px;
+    box-shadow: -5px -5px 40px black;
+    border-radius: 10px;
+    transition: 1s;
+    cursor: pointer;
+
+ }
+ .kotaq3{
+ 	padding-top: 30px;
+ 	box-shadow: -5px -5px 40px black;
+ 	border-radius: 10px;
+ 	transition: 1s;
+ 	cursor: pointer;
+ }
+ .kotaq4{
+ 	padding-top: 30px;
+ 	box-shadow: -5px -5px 40px black;
+ 	border-radius: 10px;
+ 	transition: 1s;
+ 	cursor: pointer;
+ }
+ .kebawah{
+ 	margin-top: 70px;
+ }
+ .kotaq1:hover{
+ 	padding-top: 15px;
+ 	box-shadow: 0px 0px 0px black;
+ 	border-top-left-radius: 30px;
+ 	transition: 1s;
+ }
+ .kotaq2:hover{
+ 	padding-top: 15px;
+ 	box-shadow: 0px 0px 0px black;
+ 	border-top-right-radius: 30px;
+ 	transition: 1s;
+ }
+ .kotaq3:hover{
+ 	padding-top: 15px;
+ 	box-shadow: 0px 0px 0px black;
+ 	border-bottom-left-radius: 30px;
+ 	transition: 1s;
+ } 
+.kotaq4:hover{
+ 	padding-top: 15px;
+ 	box-shadow: 0px 0px 0px black;
+ 	border-bottom-right-radius: 30px;
+ 	transition: 1s;
+ }
+
+ .kot1{
+ 	box-shadow: -5px -5px 10px black;
+ 	border-top-left-radius: 30px;
+ 	padding-bottom: 30px;
+ 	transition: 1s
+ }
+ .kot2{
+ 	box-shadow: 5px 5px 40px black;
+    border-bottom-right-radius: 30px;
+    padding-bottom: 30px;
+    transition: 1s
+ }
+ .kot1:hover{
+ 	box-shadow: 0px 0px 0px black;
+ 	border-top-left-radius: 30px;
+ 	padding-bottom: 30px;
+ 	transition: 1s
+ }
+ .kot2:hover{
+ 	box-shadow: 0px 0px 0px black;
+ 	border-top-right-radius: 30px;
+ 	padding-bottom: 30px;
+ 	transition: 1s
+ }
+ .lead,.display-4{
+ 	color: white;
+ 	font-family: sans-serif;
+ }
+ .lead{
+ 	margin-top: 70px;
+ 	font-family: 'Inconsolata';
+ 	letter-spacing: 4px;
+    height: 30px;
+ }
+ .display-4{
+ 	margin-top: 30px;
+ 	font-size: 30px;
+ 	font-weight: bold;
+    margin-bottom: 70px;
+    font-family: 'Inconsolata';
+    letter-spacing: 4px;
+    height: 30px;
+ }
+.kiri{
+	text-align: left;
+	line-height: 10px;
+}
+.turun-layanan{
+	margin-top: 25px;
+}
+.turun-bar{
+	margin-top: 50px;
+}
+.persen{
+   font-size: 15px;
+   font-weight: bold;
+   line-height: 10px;
+   letter-spacing: 2px;
+   color: #828282;
+   font-family: 'Inconsolata';	
+   margin-left: 30px;
+}
+.klir{
+	clear: left;
+}
+ }
+
+
+
+
+
+
+/*TABLET VERSION*/
+/*
+@media (min-width: 768px) and (max-width: 991px) {  
+.navbar{
+	height: 90px;
+	opacity: 1;
+	box-shadow: 0px 10px 15px black;
+}
+.fixed-top{
+	position: static;
+}
+.navbar-brand{
+	color: black !important;
+}
+.nav-link{
+	color: black !important;
+}
+.jumbotron{
+	width: 100%;
+	margin-top: -90px;
+}
+.scorlled{
+	background-color: whitesmoke;
+}
+.judul{
+	 font-size: 17px;
+     font-family: 'Inconsolata';
+     letter-spacing: 4px;
+     height: 30px;
+     margin-top: 40px; 
+}
+.garis{
+	width: 40px;
+	border-bottom: 1px solid green;
+}
+.garis2{
+	width: 30px;
+	border-bottom: 1px solid green;
+	margin-top: 10px;
+	margin-bottom: 30px;
+}
+.judul{
+	 font-size: 15px;
+     font-family: 'Inconsolata';
+     letter-spacing: 4px;
+     height: 30px;
+     margin-top: 40px;
+     text-align: left;
+}
+.isi-judul{
+	  font-size: 24px;
+      line-height: 32px;
+      letter-spacing: 3px;
+      font-family: 'Lato', sans-serif;
+      color: #232323;
+      font-weight: 700;
+      text-align: left;
+      margin-bottom: 20px;
+}
+.isi{
+	  font-family: 'Inconsolata';
+      font-weight: 400;
+      font-size: 15px;
+      line-height: 23px;
+      letter-spacing: 1px;
+      color: #828282;
+      text-align: justify;
+}
+.foto-about{
+	width: 100%;
+	height: 335px;
+	margin-top: 0px;
+}
+.pelayanan {
+    font-size: 20px;
+    vertical-align: baseline;
+    font-family: 'Lato', sans-serif;
+    font-weight: 400;
+    margin-top: 60px;
+    margin-bottom: 30px;
+}
+.pelayanan-isi{
+	 font-size: 15px;
+     line-height: 30px;
+     letter-spacing: 2px;
+     color: #828282;
+     font-family: 'Inconsolata';
+     margin-bottom: 50px;
+}
+.foto-layanan{
+	width: 400px;
+	height: 250px;
+	
+}
+.judul-pelayanan{
+    font-size: 20px;
+    vertical-align: baseline;
+    font-family: 'Lato', sans-serif;
+    font-weight: 400;
+    margin-top: 30px;
+    margin-bottom: 30px;
+}
+ .iq {
+    font-size: 15px;
+    line-height: 30px;
+    letter-spacing: 2px;
+    color: #828282;
+    font-family: 'Inconsolata';
+ }
+ .work{
+ 	text-align: center;
+ }
+
+ }*/
